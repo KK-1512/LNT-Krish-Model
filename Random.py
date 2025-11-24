@@ -11,10 +11,10 @@ st.set_page_config(page_title="Heat Treatment Hardness Predictor", layout="cente
 # =========================
 def load_model():
     base = os.path.dirname(os.path.abspath(__file__))
-    model_path = os.path.join(base, "hardness_model.pkl")
+    model_path = os.path.join(base, "Random.pkl")
 
     if not os.path.exists(model_path):
-        st.error("❌ Model file 'hardness_model.pkl' not found in repo.")
+        st.error("❌ Model file 'Random.pkl' not found in repo.")
         return None
 
     with open(model_path, "rb") as f:
