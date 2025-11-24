@@ -4,7 +4,16 @@ import numpy as np
 import pickle
 
 # Load Model
-model = pickle.load(open("hardness_model.pkl", "rb"))
+import os
+import pickle
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "hardness_model.pkl")
+
+model = pickle.load(open(model_path, "rb"))
+
+
+
 
 st.title("Heat Treatment Hardness Prediction (ML Model)")
 
