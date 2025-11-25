@@ -3,9 +3,11 @@ import numpy as np
 import pickle
 import os
 
-st.title("Decision Tree Heat Treatment Hardness Predictor")
+st.title("Heat Treatment Hardness Predictor")
+st.markdown("### _Done by **Krishnakumar V**_")
 
-# 🔥 Add image at top (upload the image to your repo)
+
+# Adding image at top
 st.image("LNT.jpg", use_column_width=True)
 
 # Load model
