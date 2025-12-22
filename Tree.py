@@ -18,12 +18,12 @@ def load_model():
 model = load_model()
 
 # Features (all now start from 0)
-C = st.number_input("Carbon (C%)", min_value=0.0, max_value=2.0, value=0.30, step=0.001)
-Mn = st.number_input("Manganese (Mn%)", min_value=0.0, max_value=3.0, value=0.80, step=0.001)
-Si = st.number_input("Silicon (Si%)", min_value=0.0, max_value=2.0, value=0.25, step=0.001)
-Cr = st.number_input("Chromium (Cr%)", min_value=0.0, max_value=5.0, value=0.50, step=0.001)
-Ni = st.number_input("Nickel (Ni%)", min_value=0.0, max_value=5.0, value=0.40, step=0.001)
-Mo = st.number_input("Molybdenum (Mo%)", min_value=0.0, max_value=2.0, value=0.10, step=0.001)
+C = st.number_input("Carbon (C%)", min_value=0.0, max_value=2.0, value=0.300, step=0.01)
+Mn = st.number_input("Manganese (Mn%)", min_value=0.0, max_value=3.0, value=0.800, step=0.01)
+Si = st.number_input("Silicon (Si%)", min_value=0.0, max_value=2.0, value=0.250, step=0.01)
+Cr = st.number_input("Chromium (Cr%)", min_value=0.0, max_value=5.0, value=0.500, step=0.01)
+Ni = st.number_input("Nickel (Ni%)", min_value=0.0, max_value=5.0, value=0.400, step=0.01)
+Mo = st.number_input("Molybdenum (Mo%)", min_value=0.0, max_value=2.0, value=0.100, step=0.01)
 
 AustenitizeTemp = st.number_input("Austenitizing Temperature (°C)", min_value=0, max_value=1500, value=850)
 AustenitizeTime = st.number_input("Austenitizing Time (min)", min_value=0, max_value=500, value=60)
