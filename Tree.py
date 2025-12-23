@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import os
 
-st.title("Heat Treatment Hardness Predictor")
+st.title("Heat Treatment Hardness Predictor (Medium Carbon Steel)")
 st.markdown("### _Done by **Krishnakumar**_")
 
 # Optional image banner
